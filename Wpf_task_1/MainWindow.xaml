@@ -5,8 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_task_1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Калькулятор" Height="360" Width="290">
     <Grid>
-        
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                <GradientStop Color="CornflowerBlue" Offset="0"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Content="1" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,80,0,0"/>
+        <Button Content="2" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="80,80,0,0"/>
+        <Button Content="3" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="140,80,0,0"/>
+        <Button Content="+" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="210,80,0,0"/>
+        <Button Content="4" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,140,0,0"/>
+        <Button Content="5" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="80,140,0,0"/>
+        <Button Content="6" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="140,140,0,0"/>
+        <Button Content="-" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="210,140,0,0"/>
+        <Button Content="7" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,200,0,0"/>
+        <Button Content="8" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="80,200,0,0"/>
+        <Button Content="9" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="140,200,0,0"/>
+        <Button Content="*" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="210,200,0,0"/>
+        <Button Content="0" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,260,0,0"/>
+        <Button Content="," Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="80,260,0,0"/>
+        <Button Content="=" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="140,260,0,0"/>
+        <Button Content="/" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="210,260,0,0"/>
+        <TextBlock Text="" Height="40" Width="240" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top" FontSize="25" TextAlignment="Right" Background="White"/>
     </Grid>
 </Window>
